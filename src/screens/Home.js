@@ -13,6 +13,9 @@ export default function Home() {
             <div><Carousel/></div>
             <div className="m-3">
                 <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
             </div>
             <div>
                 <Footer />

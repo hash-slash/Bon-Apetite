@@ -6,7 +6,7 @@ function Carousel() {
       <div
         id="carouselExampleFade"
         className="carousel slide carousel-fade"
-        data-bs-ride="carousel"
+        data-bs-ride="carousel" style = {{objectFit:"contain !important"}}
       >
         <div className="carousel-inner" id="carousel">
           <div class="Carousel-caption" style={{ zIndex: "10" }}>
@@ -17,7 +17,7 @@ function Carousel() {
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button className="btn btn-outline-sucess text-black bg-sucess" type="submit">
+              <button className="btn btn-outline-sucess bg-sucess text-black" type="submit">
                 Search
               </button>
             </form>
